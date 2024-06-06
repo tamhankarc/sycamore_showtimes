@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_movie_assets_url
+    - paragraphs.paragraphs_type.sycamore_showtimes
+id: paragraph.sycamore_showtimes.field_movie_assets_url
+field_name: field_movie_assets_url
+entity_type: paragraph
+bundle: sycamore_showtimes
+label: 'Movie Assets Path'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,9 @@
+syca-showtimes:
+  css:
+    theme:
+      css/showtimes.css: {}
+  js:
+    js/showtimes.js: {}
+  dependencies:
+    - core/drupal
+    - core/jQuery

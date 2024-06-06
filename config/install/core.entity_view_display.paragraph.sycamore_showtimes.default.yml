@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.sycamore_showtimes.field_showtime_heading
+    - field.field.paragraph.sycamore_showtimes.field_movie_assets_url
+    - paragraphs.paragraphs_type.sycamore_showtimes
+id: paragraph.sycamore_showtimes.default
+targetEntityType: paragraph
+bundle: sycamore_showtimes
+mode: default
+content:
+  field_showtime_heading:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_movie_assets_url:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true

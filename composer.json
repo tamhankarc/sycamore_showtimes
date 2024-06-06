@@ -1,0 +1,15 @@
+{
+	"name": "spe/sycamore_showtimes",
+	"description": "Sycamore Showtimes component integration with drupal.",
+	"type": "spe-module",
+	"keywords": ["Drupal", "Sycamore", "Showtimes"],
+	"homepage": "",
+	"license": "",
+	"authors": [],
+	"support": {
+		"source": "sonydev@sycamoresol.com"
+	},
+	"require": {
+		"drupal/paragraphs": "^1.16"
+	}
+}

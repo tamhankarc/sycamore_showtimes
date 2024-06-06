@@ -1,0 +1,15 @@
+.showtimes-container .syts_topAutocompleteTitle,.showtimes-container .syts_formatFilterTitle,.showtimes-container .syts_languageFilterTitle,.showtimes-container .syts_timeFilterTitle,.showtimes-container .syts_dateTitle,.showtimes-container .syts_theaterName{
+  font-family:"Oswald",sans-serif;
+}
+.showtimes-container #sycaEmbed_TicketsContainerOuter{
+  height:83vh;
+  width:100%;
+}
+@media only screen and (max-width: 992px) and (orientation: landscape){
+  .showtimes-container #sycaEmbed_TicketsContainerOuter{
+    height:800px;
+  }
+}
+.showtimes-container #olderbrowser{
+  background:transparent !important;
+}
